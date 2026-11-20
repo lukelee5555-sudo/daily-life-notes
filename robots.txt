@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lukelee5555-sudo.github.io/daily-life-notes/sitemap.xml

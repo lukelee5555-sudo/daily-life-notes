@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Daily Life Notes</title>
+    <link>https://lukelee5555-sudo.github.io/daily-life-notes/</link>
+    <description>A daily one-page brief on home safety, everyday technology and small life fixes that actually work.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Nov 2026 14:46:56 +0900</lastBuildDate>
+    <item>
+      <title>Winter Electrical Safety: 12 Checks Before You Plug In a Space Heater</title>
+      <link>https://lukelee5555-sudo.github.io/daily-life-notes/posts/2026-11-20-winter-electrical-safety.html</link>
+      <guid isPermaLink="true">https://lukelee5555-sudo.github.io/daily-life-notes/posts/2026-11-20-winter-electrical-safety.html</guid>
+      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
+      <description>Heating appliances are the leading cause of home fires in the cold months. Twelve checks, most of them under a minute, that catch the mistakes people actually make.</description>
+    </item>
+    <item>
+      <title>Why Your Phone Battery Dies Faster in Winter (and Six Fixes That Work)</title>
+      <link>https://lukelee5555-sudo.github.io/daily-life-notes/posts/2026-11-19-phone-battery-cold-weather.html</link>
+      <guid isPermaLink="true">https://lukelee5555-sudo.github.io/daily-life-notes/posts/2026-11-19-phone-battery-cold-weather.html</guid>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0900</pubDate>
+      <description>Cold weather does not damage a lithium battery permanently, but it does make it behave badly for a few hours. What is actually happening, and what genuinely helps.</description>
+    </item>
+    <item>
+      <title>Ten Smart Home Settings Worth Changing Today</title>
+      <link>https://lukelee5555-sudo.github.io/daily-life-notes/posts/2026-11-18-smart-home-privacy-checklist.html</link>
+      <guid isPermaLink="true">https://lukelee5555-sudo.github.io/daily-life-notes/posts/2026-11-18-smart-home-privacy-checklist.html</guid>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+      <description>Most smart-home equipment ships with the widest defaults and the thinnest privacy settings. Ten changes, ordered by how much they actually reduce risk.</description>
+    </item>
+  </channel>
+</rss>

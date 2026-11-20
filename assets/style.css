@@ -1,0 +1,165 @@
+:root {
+  --ink: #17202a;
+  --ink-soft: #4a5563;
+  --paper: #fbfaf7;
+  --line: #e3ded4;
+  --accent: #1f6f5c;
+  --accent-soft: #eaf2ee;
+  --max: 40rem;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 17px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+        "Helvetica Neue", Arial, sans-serif;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }
+
+.site-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 1.6rem 1.25rem 0.4rem;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.site-head nav { display: flex; gap: 1rem; font-size: 0.85rem; }
+.site-head nav a { color: var(--ink-soft); text-decoration: none; }
+.site-head nav a:hover { color: var(--accent); }
+
+main {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 1rem 1.25rem 3rem;
+}
+
+.hero { padding: 1.6rem 0 2rem; border-bottom: 1px solid var(--line); }
+.hero h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.5rem; letter-spacing: -0.02em; }
+.lede { font-size: 1.05rem; color: var(--ink-soft); margin: 0 0 0.4rem; }
+.sub { font-size: 0.92rem; color: #6b7280; margin: 0; }
+
+.section-title {
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8a8578;
+  margin: 2rem 0 1rem;
+}
+
+.cards { list-style: none; margin: 0; padding: 0; }
+
+.card {
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.card:last-child { border-bottom: 0; }
+.card a { color: inherit; text-decoration: none; display: block; }
+.card a:hover h2 { color: var(--accent); }
+.card time {
+  font-size: 0.76rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #8a8578;
+}
+.card h2 {
+  font-size: 1.15rem;
+  line-height: 1.35;
+  margin: 0.25rem 0 0.35rem;
+  letter-spacing: -0.01em;
+  transition: color 0.15s ease;
+}
+.card p { margin: 0; font-size: 0.93rem; color: var(--ink-soft); }
+
+.tags { margin-top: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.tag {
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+}
+
+.post h1 {
+  font-size: 1.85rem;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin: 0.4rem 0 0.6rem;
+}
+.crumb { font-size: 0.8rem; color: #8a8578; margin: 1.4rem 0 0; }
+.meta { font-size: 0.82rem; color: #8a8578; margin: 0 0 1.8rem; }
+.meta .tag { margin-left: 0.35rem; }
+
+.prose h2 {
+  font-size: 1.2rem;
+  margin: 2rem 0 0.6rem;
+  letter-spacing: -0.01em;
+}
+.prose h3 { font-size: 1.02rem; margin: 1.5rem 0 0.4rem; }
+.prose p { margin: 0 0 1rem; }
+.prose ul, .prose ol { margin: 0 0 1rem; padding-left: 1.2rem; }
+.prose li { margin: 0 0 0.45rem; }
+.prose blockquote {
+  margin: 1.4rem 0;
+  padding: 0.4rem 0 0.4rem 1rem;
+  border-left: 3px solid var(--accent);
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.prose blockquote p { margin: 0; }
+.prose code {
+  font: 0.88em/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: #f0ede6;
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+}
+.prose pre {
+  background: #22272b;
+  color: #e8e6e1;
+  padding: 0.9rem 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+}
+.prose pre code { background: none; padding: 0; color: inherit; }
+.prose hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0; }
+
+.back { margin-top: 2.5rem; font-size: 0.9rem; }
+
+.site-foot {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 1.4rem 1.25rem 3rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+.site-foot p { margin: 0.2rem 0; }
+.tiny { font-size: 0.75rem; color: #9aa0a6; }
+
+@media (max-width: 480px) {
+  body { font-size: 16px; }
+  .hero h1 { font-size: 1.7rem; }
+  .post h1 { font-size: 1.5rem; }
+}
