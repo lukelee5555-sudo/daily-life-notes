@@ -251,7 +251,8 @@ def build_post(post: dict) -> None:
     body = f"""    <article class="post">
       <p class="crumb"><a href="{url_for('')}">Home</a> / {esc(pretty_date(post['date']))}</p>
       <h1>{esc(post['title'])}</h1>
-      <p class="meta"><time datetime="{esc(post['date'])}">{esc(pretty_date(post['date']))}</time> · {esc(AUTHOR)} {tag_html}</p>
+      <p class="meta"><time datetime="{esc(post['date'])}">{esc(pretty_date(post['date']))}</time> · {esc(AUTHOR)}</p>
+      <p class="tags">{tag_html}</p>
       <div class="prose">
 {content}
       </div>
